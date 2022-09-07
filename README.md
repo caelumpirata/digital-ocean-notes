@@ -24,3 +24,9 @@ Step 3: Configure the domain in DIGITAL OCEAN networking panel
           add one sub-domain in A tab.
           
           
+          
+ THINGS TO KEEP IN MIND (this is what i understood and yes, it worked)
+ ----------------------------------------------------------------------
+ containerPort == targetPort 
+ port == 80
+          

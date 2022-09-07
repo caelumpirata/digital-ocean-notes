@@ -1,0 +1,38 @@
+apiVersion: networking.k8s.io/v1
+   
+kind: Ingress
+   
+metadata:
+   
+  name: example-service-ingress
+  
+   
+  # annotations:
+   
+    # nginx.ingress.kubernetes.io/rewrite-target: /$1
+   
+spec:
+   
+  rules:
+   
+    - host: ocean.< domain_name >  # here, ocean is a subdomain, you must add one too
+   
+      http:
+   
+        paths:
+   
+          - path: /
+   
+            pathType: Prefix
+   
+            backend:
+   
+              service:
+   
+                name: example-service-lb
+   
+                port:
+   
+                  number: 8080   #port same as you exposed while creating image 
+                  
+  ingressClassName: nginx

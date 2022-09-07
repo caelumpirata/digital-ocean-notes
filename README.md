@@ -28,5 +28,6 @@ Step 3: Configure the domain in DIGITAL OCEAN networking panel
  THINGS TO KEEP IN MIND (this is what i understood and yes, it worked)
  ----------------------------------------------------------------------
  containerPort == targetPort 
+ ---------------------------
  port == 80
           

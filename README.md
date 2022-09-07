@@ -30,3 +30,9 @@ Step 3: Configure the domain in DIGITAL OCEAN networking panel
 1.  containerPort == targetPort 
 2.  port == 80
 
+Videos for Reference
+--------------------
+1. Securing Kubernetes Ingress With Let’s Encrypt - 
+        https://youtu.be/MpovOI5eK58
+2. Practical Kubernetes Networking: How to Use Kubernetes Services to Expose Your App
+        https://youtu.be/SoByggox15g

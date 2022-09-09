@@ -6,6 +6,6 @@ spec:
   selector:
     app: website #anything which has a label of {website}
   ports:
-    - port: 80   #leave this default for digital ocean deployment
-      targetPort: 8080    # port you exposed while creating image
+    - port: 80   #port you exposed while creating image
+      targetPort: 8080    # leave this to 8080
   type: ClusterIP

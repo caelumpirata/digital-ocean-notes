@@ -2,6 +2,16 @@
 repository includes - deployment - service - ingress.yaml files along with NOTES
 
 
+
+Download Doctl for Windows
+--------------------------
+https://github.com/digitalocean/doctl/releases
+
+Choose the package ends with  (doctl.1.xx.x-windows-amd64.zip)
+ extract the zip and open the terminal in the same directory where doctl.exe is present 
+
+
+
 Connect Doctl to the cluster
 ----------------------------
 :-) download Config File !

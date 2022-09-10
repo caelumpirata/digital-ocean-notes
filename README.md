@@ -19,6 +19,7 @@ Connect Doctl to the cluster
 Open terminal in the folder where doctl.exe is already present
 
 Step 1: doctl auth init -t "TOKEN_FROM_CONFIG_FILE"
+
 Step 2: Open Digital Ocean control panel
         go to KUBERNETES tab in MANAGE section
         click on cluster name

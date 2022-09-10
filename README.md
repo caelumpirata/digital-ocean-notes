@@ -2,6 +2,28 @@
 repository includes - deployment - service - ingress.yaml files along with NOTES
 
 
+Connect Doctl to the cluster
+----------------------------
+:-) download Config File !
+
+Open terminal in the folder where doctl.exe is already present
+
+Step 1: doctl auth init -t "TOKEN_FROM_CONFIG_FILE"
+Step 2: Open Digital Ocean control panel
+        go to KUBERNETES tab in MANAGE section
+        click on cluster name
+        
+        in Overview section, go to CONNECTING TO KUBERNETES section
+        -> copy automatically cluster certificate renewal command
+        
+        paste in terminal and run
+        
+Step 3: Verify your connectivity using following commands:
+            kubectl cluster-info
+            kubectl get nodes
+        
+
+
 Steps to follow
 ---------------------------------------
 

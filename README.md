@@ -30,6 +30,7 @@ Step 2: Open Digital Ocean control panel
         paste in terminal and run
         
 Step 3: Verify your connectivity using following commands:
+
             kubectl cluster-info
             kubectl get nodes
         

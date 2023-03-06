@@ -61,8 +61,8 @@ Step 3: Configure the domain in DIGITAL OCEAN networking panel
           
  THINGS TO KEEP IN MIND (this is what i understood and yes, it worked)
  ----------------------------------------------------------------------
-1.  containerPort == Port 
-2.  targetPort == 8080
+1.  containerPort == Port you expose while creating docker image
+2.  targetPort == 8080 [fixed]
 
 Videos for Reference
 --------------------
